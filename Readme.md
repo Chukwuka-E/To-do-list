@@ -68,7 +68,78 @@ todoList.clearCompletedTodos();
 console.log("\nTodo Items After Clearing Completed:");
 console.log(todoList.listTodos());
 ```
+### Output
 
+```All Todo Items:
+[
+  {
+    id: 1,
+    task: 'Attend the Sofu meeting ',
+    completed: false,
+    dueDate: 2025-03-03T00:00:00.000Z
+  },
+  {
+    id: 2,
+    task: 'Complete project',
+    completed: false,
+    dueDate: 2025-03-03T00:00:00.000Z
+  },
+  {
+    id: 3,
+    task: 'Attend meeting',
+    completed: false,
+    dueDate: 2025-03-03T00:00:00.000Z
+  }
+]
+
+Completed Todo Items:
+[
+  {
+    id: 1,
+    task: 'Attend the Sofu meeting ',
+    completed: true,
+    dueDate: 2025-03-03T00:00:00.000Z
+  }
+]
+
+Updated Todo Items:
+[
+  {
+    id: 1,
+    task: 'Attend the Sofu meeting ',
+    completed: true,
+    dueDate: 2025-03-03T00:00:00.000Z
+  },
+  {
+    id: 2,
+    task: 'Complete project report',
+    completed: false,
+    dueDate: 2025-03-03T00:00:00.000Z
+  },
+  {
+    id: 3,
+    task: 'Attend meeting',
+    completed: false,
+    dueDate: 2025-03-03T00:00:00.000Z
+  }
+]
+
+Todo Items After Clearing Completed:
+[
+  {
+    id: 2,
+    task: 'Complete project report',
+    completed: false,
+    dueDate: 2025-03-03T00:00:00.000Z
+  },
+  {
+    id: 3,
+    task: 'Attend meeting',
+    completed: false,
+    dueDate: 2025-03-03T00:00:00.000Z
+  }
+]
+```
 ## Summary
  This Todo List application is one of my projects aimed at helping users manage their tasks more efficiently.
 
